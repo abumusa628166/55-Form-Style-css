@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        input[type="text"]{
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+            margin: 20px 0;
+            border: 2px solid magenta;
+            text-transform: uppercase;
+            font-weight: bold;
+            background-color: rgb(233, 243, 237);
+            color: rgb(43, 38, 41);
+        }
+
+        #search{
+            background-image: url("search.png");
+            background-repeat: no-repeat;
+            background-size: 20px;
+            padding: 10px 50px;
+            background-position: 15px 10px;
+            width: 300px;
+
+            transition: width 0.5s ease-in-out;
+        }
+
+        #search:focus{
+            background-color: rgb(250, 213, 144);
+            width: 100%;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <form action="#">
+
+        
+        <input type="text" name="search" id="search" placeholder="search">
+<br>
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter Your First Name">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Enter Your Last Name">
+
+    </form>
+</body>
+</html>
